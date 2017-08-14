@@ -1,2 +1,7 @@
-# EAL-technology-2017
-Exercises for the Technology course at EAL Odense
+#Examples
+
+This folder is containing examples for the subjects that matches the week.
+
+## Weeks
+
+33: Threading - Semaphores and Mutex
