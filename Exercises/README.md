@@ -3,5 +3,5 @@ Here you will find the exercises that fits the weekly subject. Some of the exerc
 
 
 ## Weeks
-33: Threading - Mutex & Semaphore
+33: Threading - Mutex & Semaphore </br>
 34: OS Scheduling
