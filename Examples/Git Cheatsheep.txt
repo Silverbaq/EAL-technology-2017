@@ -1,0 +1,17 @@
+Create Repo:
+* git init
+
+Add files to repo:
+* git add <filename>
+
+Save files/changes to repo:
+* git commit -m "This is a message"
+
+Repo information/state
+* git status
+
+
+---- More info will come ---
+* git log
+
+* git checkout
