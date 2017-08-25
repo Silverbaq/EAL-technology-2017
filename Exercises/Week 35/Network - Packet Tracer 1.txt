@@ -1,0 +1,56 @@
+# 1. Communication between two computers:
+
+* Create a computernetwork in "Packet Tracer" with:
+	* 1x Switch
+	* 2x Computers
+
+* Rename the Switch so it is called: "Switch 1".
+* Rename the computers to they are called "Computer 1" and "Computer 2".
+* Connect the devices with the correct cabels.
+
+* Set the IP addresse for "Computer 1" to be: 192.168.0.10
+* Set the IP addresse for "Computer 2" to be: 192.168.0.20
+* From "Computer 1", send a "ping" request to "Computer 2" and follow the path of the packages, in the "Simulation mode".
+
+
+
+# 2. Adding Servers
+
+* Add a server to the network and connect it to the switch with the correct cable.
+* Rename the server so it is called "DHCP Server".
+* Configure the IP-address for "DHCP Server" to have the static IP: "192.168.0.150"
+* Enable the "DHCP service" on this server.
+
+* Make sure the "IP Pool" starts from IP: 192.168.0.10 and the maximum number of users is 20.
+
+* Set "Computer 1" and "Computer 2" to get their IP addresses from the DHCP server.
+* Open op the "Command Promt" for "Computer 1" and type "ipconfig" to get the IP-address of the computer.
+* Open op the "Command Promt" for "Computer 2" and type "ipconfig" to get the IP-address of the computer.
+
+* From "Computer 1", send a "ping" request to "Computer 2" and follow the path of the packages, in the "Simulation mode". 
+
+
+
+# 3. Adding Web-server
+
+* Add another server to the network, and connect it to the switch with the correct cable.
+* Rename the server so it is called "Web Server".
+* Configure the IP-address for "Web Server" to have the static IP: "192.168.0.100"
+* Enable the "Web Server service" on "Web Server" 
+
+* From "Computer 1" open the Browser and navigate to "192.168.0.100" - (In simulation mode, follow the packages send between "Computer 1" and the "Web server").
+* From "Computer 2" open the Browser and navigate to "192.168.0.100" - (In simulation mode, follow the packages send between "Computer 2" and the "Web server").
+
+
+
+# 4. Adding DNS-server
+
+* Add an additional server to the network and connect it to the switch with the correct cables.
+* Rename the server, so it is called "DNS-Server".
+* Configure the IP-address for "DNS-Server" to have the static IP: "192.168.0.120".
+* Enable the "DNS service" for the server.
+* Add the an "A record" with the name "cool-site.com" to point to "Web Server" (192.168.0.100).
+* Add the "DNS Server" information to the "DHCP Server".
+* Update the configuration for "Computer 1" and "Computer 2".
+* Open the browser from "Computer 1" and browse to the site: http://cool-site.com
+* In simulation mode, follow the packages that are beeing send between the web server end the client.
