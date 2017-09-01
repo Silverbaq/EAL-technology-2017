@@ -1,0 +1,33 @@
+# 1. Preperation
+Make you you have the network up and running fra last weeks exercises. ("Network - Packet Tracer 1").
+
+
+# 2. Adding more networks
+Make another small network consisting of:
+	1x Switch
+	3x End user PC's
+	1x DHCP Server
+Configure the PC's so that they get there network information from the DHCP Server.
+
+
+# 3. Yet another network
+Make a third network consisting of:
+	1x Switch
+	1x DNS Server
+	2x Web Server
+Configure the servers so that they have a static IP addresses that makes sense for the network.
+
+
+# 4. Connection between networks
+* Add three routhers - one for every network.
+
+* Switch off every routher and added a "Serial" module and turn on the routhers agian.
+
+* Connect the three networks with each other, by connecting the routhers with serial.
+* Configure the routhers with a network, so that they can communicate with each other.
+* Configure the routing table for each routher, so that they know where to send packages for other networks.
+
+
+# 5. Reconfigure devices.
+* Reconfigure the devices on the "first" network (the one from last weeks exercise) - so that they are using the DNS server from the "thrid" network.
+* Use the simulation mode to make sure that your networks are running as expecting.
