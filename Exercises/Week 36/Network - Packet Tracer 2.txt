@@ -29,5 +29,5 @@ Configure the servers so that they have a static IP addresses that makes sense f
 
 
 # 5. Reconfigure devices.
-* Reconfigure the devices on the "first" network (the one from last weeks exercise) - so that they are using the DNS server from the "thrid" network.
+* Reconfigure the devices on the "first" network (the one from last weeks exercise) - so that they are using the DNS server from the "third" network.
 * Use the simulation mode to make sure that your networks are running as expecting.
