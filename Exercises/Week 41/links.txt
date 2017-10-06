@@ -1,0 +1,9 @@
+How to Build a TCP Connection in Scapy 
+https://www.fir3net.com/Programming/Python/how-to-build-a-tcp-connection-in-scapy.html
+
+
+Scapy Cheat Sheet(s)
+https://blogs.sans.org/pen-testing/files/2016/04/ScapyCheatSheet_v0.2.pdf
+http://www.packetlevel.ch/html/scapy/docs/scapy_sans.pdf
+http://packetlife.net/media/library/36/scapy.pdf
+
