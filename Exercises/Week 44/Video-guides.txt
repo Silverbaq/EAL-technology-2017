@@ -1,0 +1,7 @@
+Firebase:
+
+Auth:		
+	* E-mail & Password:	https://www.youtube.com/watch?v=-OKrloDzGpU
+Database:	
+	* Value (a single value): https://www.youtube.com/watch?v=noB98K6A0TY
+	* Child (a list of elements): https://www.youtube.com/watch?v=dBscwaqNPuk
